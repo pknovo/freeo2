@@ -1,4 +1,4 @@
-# FreeO2 Client Applications
+# Application Clients
 
 * [Embedded](./embedded/)
 * [Remote Viewer](./remote-viewer/)
