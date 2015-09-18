@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "sourceMap": false,
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "noEmit": false,
+        "experimentalDecorators": true,
+        "jsx": "react"
+    },
+    "compileOnSave": false,
+    "filesGlob": [],
+    "files": []
+}
