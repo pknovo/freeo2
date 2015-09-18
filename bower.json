@@ -1,0 +1,21 @@
+{
+  "name": "freeo2",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pknovo/freeo2",
+  "authors": [
+    "NOVO"
+  ],
+  "description": "Automated oxygen delivery system",
+  "main": "client/startup.js",
+  "license": "UNLICENSED",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.1.3"
+  }
+}
