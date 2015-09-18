@@ -1,0 +1,15 @@
+{
+  "name": "freeo2-embedded-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pknovo/freeo2/tree/master/client/embedded"
+  },
+  "author": "NOVO",
+  "license": "UNLICENSED"
+}

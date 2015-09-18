@@ -8,7 +8,33 @@
         "experimentalDecorators": true,
         "jsx": "react"
     },
-    "compileOnSave": false,
-    "filesGlob": [],
-    "files": []
+    "compileOnSave": true,
+    "filesGlob": [
+        "./core/**/*.ts",
+        "./client/**/*.ts",
+        "./domain/**/*.ts"
+    ],
+    "files": [
+        "./core/core.ts",
+        "./client/embedded/components/dummy.ts",
+        "./domain/__sharedkernel__/patient/patient.ts",
+        "./domain/__sharedkernel__/patient/patient_category.ts",
+        "./domain/__sharedkernel__/patient/patient_id.ts",
+        "./domain/__sharedkernel__/vitals/heart_rate.ts",
+        "./domain/__sharedkernel__/vitals/respiratory_rate.ts",
+        "./domain/__sharedkernel__/vitals/spo2.ts",
+        "./domain/__sharedkernel__/vitals/vital_sign.ts",
+        "./domain/dummy.ts",
+        "./domain/oxygen_therapy/actions/change_treatment_plan.ts",
+        "./domain/oxygen_therapy/actions/rename_patient_id.ts",
+        "./domain/oxygen_therapy/actions/start_new_treatment_plan.ts",
+        "./domain/oxygen_therapy/delivery_mode.ts",
+        "./domain/oxygen_therapy/events/new_treatment_plan_started.ts",
+        "./domain/oxygen_therapy/events/treatment_plan_changed.ts",
+        "./domain/oxygen_therapy/policies/target_spo2_policy.ts",
+        "./domain/oxygen_therapy/spo2.ts",
+        "./domain/oxygen_therapy/spo2_flow_rate.ts",
+        "./domain/oxygen_therapy/treatment_plan.ts",
+        "./domain/pulse_oximetry/pulse_oximeter_signal.ts"
+    ]
 }
